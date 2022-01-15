@@ -1,0 +1,12 @@
+{
+  "welcomeFile": "/index.html",
+  "routes":[
+    {
+      "source":"^/(.*)",
+      "localDir":"resources",
+      "authenticationType":"xsuaa",
+      "csrfProtection":true,
+      "cacheControl":"public, max-age=1000, no-store, must-revalidate"
+    }
+  ]
+}
