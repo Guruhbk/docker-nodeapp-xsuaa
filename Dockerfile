@@ -2,7 +2,9 @@ FROM node:latest
 
 WORKDIR /usr/src/app
 
-COPY resources .
+RUN mkdir -p ./resources
+
+COPY resources ./resources
 COPY app.js .
 COPY package.json .
 COPY xs-app.json .
