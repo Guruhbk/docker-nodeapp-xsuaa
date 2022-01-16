@@ -1,0 +1,8 @@
+---
+applications:
+  - name: nodeappForDocker
+    docker:
+      image: <repo>:<appname>:<tag>
+      username: <username>
+    services:
+      - my-xsuaa
